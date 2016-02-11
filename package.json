@@ -1,0 +1,21 @@
+{
+  "name": "x-toy-language",
+  "version": "0.0.1",
+  "description": "Simple syntax highlighting for xtoy/asm ",
+  "keywords": [
+    "x-toy",
+    "asm",
+    "language",
+    "syntax",
+    "alexaut",
+    "toy",
+    "assembler"
+  ],
+  "repository": "https://github.com/atom/x-toy-language",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,28 @@
+'scopeName': 'source.xtoy'
+'name': 'X-Toy'
+'fileTypes': [
+  'asm'
+]
+
+'patterns': [
+  {
+    'match' : ';.*$'
+    'name' : 'punctuation.definition.comment.xtoy'
+  }
+  {
+    'match' : '\\b(?i:(0x\\h*))'
+    'name' : 'constant.numeric.integer.hexadecimal.xtoy'
+  }
+  {
+    'match' : '\\b(add|sub|and|xor|shl|shr|lda|ld|st|ldi|sti|bz|bp|jr|jl|ADD|SUB|AND|XOR|SHL|SHR|LDA|LD|ST|LDI|STI|BZ|BP|JR|JL)\\b'
+    'name' : "entity.name.function.xtoy"
+  }
+  {
+    'match' : '\\b(hlt|HLT|dup|DUP|dw|DW)\\b'
+    'name' : 'keyword.xtoy'
+  }
+  {
+    'match' : '\\b(R.)\\b'
+    'name' : 'entity.name.variable.xtoy'
+  }
+]
